@@ -14,7 +14,7 @@ SET(KAZMATH_SOURCES
   GL/matrix.c
   )
 
-ADD_SUBDIRECTORY(src)
+add_subdirectory(kazmath)
 
 set_target_properties(kazmath
     PROPERTIES
