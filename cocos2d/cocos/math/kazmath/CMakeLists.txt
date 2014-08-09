@@ -10,6 +10,7 @@ SET(KAZMATH_SOURCES
   utility.c
   aabb.c
   ray2.c
+  ray3.c
   GL/mat4stack.c
   GL/matrix.c
   )

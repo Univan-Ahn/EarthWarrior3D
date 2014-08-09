@@ -43,6 +43,27 @@ set(GAME_SRC
   proj.linux/main.cpp
   Classes/AppDelegate.cpp
   Classes/HelloWorldScene.cpp
+  Classes/GameOverLayer.cpp
+  Classes/LoadingScene.cpp
+  Classes/AppDelegate.cpp
+  Classes/GameEntity.cpp
+  Classes/GameControllers.cpp
+  Classes/Bullets.cpp
+  Classes/GameLayer.cpp
+  Classes/Player.cpp
+  Classes/Plane.cpp
+  Classes/PublicApi.cpp
+  Classes/MainMenuScene.cpp
+  Classes/Effects.cpp
+  Classes/Explosion.cpp
+  Classes/LicenseLayer.cpp
+  Classes/AirCraft.cpp
+  Classes/Enemies.cpp
+  Classes/HelloWorldScene.cpp
+  Classes/3d/MeshCache.cpp
+  Classes/3d/Sprite3D.cpp
+  Classes/3d/Mesh.cpp
+  Classes/ParticleManager.cpp
 )
 
 set(COCOS2D_ROOT ${CMAKE_SOURCE_DIR}/cocos2d)
@@ -166,4 +187,3 @@ pre_build(${APP_NAME}
   COMMAND ${CMAKE_COMMAND} -E remove_directory ${APP_BIN_DIR}/Resources
   COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR}/Resources ${APP_BIN_DIR}/Resources
   )
-
